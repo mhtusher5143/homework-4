@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(nature-g22f1d3e6f_1280.jpg);
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu_bar{
+    background: chartreuse;
+    text-align: center;
+}
+.menu_bar ul li {
+    display: inline-flex;
+    margin: 20px;
+    width: 100px;
+    padding: 20px;
+}
+.menu_bar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+.active, .menu_bar ul li:hover{
+    background: violet;
+    border-radius: 3px;
+}
+.sub_menu_1{
+    display: none;
+}
+.active, .menu_bar ul li:hover .sub_menu_1{
+    margin-top: 15px;
+    margin-left: -15px;
+    background-color: cyan;
+    display: block;
+}
+.active, .menu_bar ul li:hover .sub_menu_1 ul{
+    text-align: center;
+    margin: 15px;
+}
+.sub_menu_2{
+    display: none;
+}
+.active, .menu_bar ul li:hover .sub_menu_2{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.active, .menu_bar ul li:hover .sub_menu_2 ul{
+    text-align: center;
+    margin: 15px;
+}
+
+
