@@ -1,19 +1,61 @@
-h2 {
-    text-transform: capitalize;
+section.ourservices {
+    text-align: center;
 }
-i.fas.fa-cog {
-    width: 58p;
-    width: 22px;
-    height: 5px;
-    line-height: 28px;
-    margin: 0px auto;
-    border-bottom-right-radius: 6px;
-    background-color: brown;
+h1 {
+    font-weight: revert;
+    font-size: 52px;
+    line-height: 81px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.singlepart {
+    display: flex;
+    padding: 30px 8%;
+    column-gap: 40px;
 }
 .single {
-    padding: 15px 21px;
-    background-color: #ddd;
+    background-color: darkseagreen;
+    padding: 30px 35px;
 }
-style attribute {
-    text-align: center;
+.icon {
+    height: 60px;
+    width: 62px;
+    line-height: 56px;
+    background-color: #eee;
+    margin: 0 auto;
+    border-top-left-radius: 49px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 31px;
+}
+.dualpart {
+    display: flex;
+    padding: 8% 30px;
+    column-gap: 40px;
+}
+.icon-2 {
+    height: 60px;
+    width: 60px;
+    line-height: 50px;
+    margin: 0 auto;
+    background-color: #eee;
+    border-bottom-left-radius: 87px;
+    border-bottom-right-radius: 77px;
+    border-top-left-radius: 84px;
+    border-top-right-radius: 33px;
+    transform: translate3d(5px, -32px, 9px);
+}
+.icon-2:hover{
+    background-color: blueviolet;
+}
+.dual {
+    background-color: bisque;
+    padding: 4px 10px;
+    border-radius: 29px;
+    transition: all ease o.7sec;
+    /* transition: all ease 0.7s; */
+    transition: all ease 0.7s;
+}
+.dual:hover{
+    background-color: darkcyan;
 }
